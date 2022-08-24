@@ -1,8 +1,6 @@
 import './App.css';
 const laptopDAO = "https://laptop-dao.vercel.app/"
-// const twitterHandle = "https://twitter.com/xentoshi"
-const cute1 = "https://giphy.com/embed/A9dZqpVpbLsju"
-const cute2= "https://giphy.com/embed/oebD5alsVBFKg"
+const twitterHandle = "https://twitter.com/xentoshi"
 const plant = "https://giphy.com/embed/kBrUzSA32eZhhfrmzX"
 
 function App() {
@@ -10,27 +8,23 @@ function App() {
     <div className="App">
       {/*HEADER*/}
       <header className="App-header">
-            Konichiwa, <br></br>
-            my name is <b>xentoshi</b>
-            <iframe src={cute1} width="150" height="150" frameBorder="0" title="cute1" className='cute1' allowFullScreen></iframe>
-            <iframe src={cute2} width="130" height="130" frameBorder="0" title="cute2" className='cute2' allowFullScreen></iframe>
+            hi, you can call me xentoshi!
       </header>
       <div className="body">
       {/*ABOUT*/}
       <div className="about">
-            I like things kawaii
        </div>
-
+       <div className="about">
+            graduated political science, self-taught web dev creating in react, react three fiber, threejs -- <a href="https://github.com/xentoshi">github</a>. Currently providing builders with a tool at 
+       <a href={laptopDAO} target="_blank" rel="noopener noreferrer" alt="laptopDAO"> laptopDAO</a> and learning japanese
+       </div>
        <iframe src={plant} width="150" height="150" frameBorder="0" title="plant" className='plant' allowFullScreen></iframe>
        {/*PROJECTS*/}
-       <div className="projects">
-       Building 
-       <a href={laptopDAO} target="_blank" rel="noopener noreferrer" alt="laptopDAO"> laptopDAO</a>
-       <br></br>
-      <img src='./pikachu.png' alt="" width={200}/>
+      <div>
+        if you want simple but cute website like this <a href={twitterHandle}>let me know</a>!
+      </div>
        </div>
       </div>
-    </div>
   );
 }
 
