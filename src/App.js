@@ -18,7 +18,7 @@ function App() {
             graduated political science, self-taught web dev creating in react, react three fiber, threejs -- <a href="https://github.com/xentoshi">github</a>. Currently providing builders with a tool at 
        <a href={laptopDAO} target="_blank" rel="noopener noreferrer" alt="laptopDAO"> laptopDAO</a> and learning japanese
        </div>
-       <iframe src={plant} width="200" height="200" frameBorder="0" title="plant" className='plant' allowFullScreen></iframe>
+       <iframe src={plant} width="150" height="150" frameBorder="0" title="plant" className='plant' allowFullScreen></iframe>
        {/*PROJECTS*/}
       <div>
         if you want simple but cute website like this <a href={twitterHandle}>let me know</a>!
