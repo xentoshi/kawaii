@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Crimson Text', serif;
+  font-size: x-large;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
@@ -11,18 +12,27 @@
 }
 
 .App {
-  text-align: center;
-  min-height: 100vh;
+  text-align: left;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   color: white;
+  margin-left: 4vh;
 }
 
-.column {
-  width: 100%;
+.App-header {
+  min-height: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  color: white;
+  margin-top: 4vh;
+  margin-left: 2vh;
 }
+
 
 @media (min-width: 600px) {
   .column {
@@ -44,30 +54,16 @@ a:visited {
 
 
 a:hover {
-  color: yellow;
+  color: red;
 }
 
 
-.App-header {
-  min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  top: 0%;
-  left: 0%;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.plant {
+.gif {
   pointer-events: none;
   cursor: none;
   background-color: transparent;
 }
+
 
 
 
