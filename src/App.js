@@ -2,7 +2,7 @@ import './App.css';
 const laptopDAO = "https://laptop-dao.vercel.app/"
 const twitterHandle = "https://twitter.com/xentoshi"
 const github = "https://github.com/xentoshi"
-const gif = "https://giphy.com/embed/eg3fFwGU1TuwcKczgF"
+const gif = "https://giphy.com/embed/oebD5alsVBFKg"
 
 function App() {
   return (

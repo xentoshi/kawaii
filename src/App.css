@@ -41,20 +41,20 @@
 }
 
 a:link {
-  color: rgb(8, 183, 90);
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(8, 183, 90);
+  color: yellow;
   background-color: transparent;
   text-decoration: none;
 }
 
 
 a:hover {
-  color: red;
+  color: pink;
 }
 
 
