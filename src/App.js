@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       {/*HEADER*/}
       <header className="App-header">
-      rebuilding... 
       </header>
       <div className="body">
        <iframe src={gif} width="350" height="350" frameBorder="0" title="plant" className='gif' allowFullScreen></iframe>
