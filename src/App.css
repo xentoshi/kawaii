@@ -3,35 +3,21 @@
 * {
   font-family: 'Crimson Text', serif;
   font-size: x-large;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
   background-color: black;
 }
 
 .App {
   text-align: left;
-  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
   color: white;
-  margin-left: 4vh;
+  margin: 4vh;
+  max-width: 500px;
 }
 
-.App-header {
-  min-height: 6vh;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  color: white;
-  margin-top: 4vh;
-  margin-left: 2vh;
-}
+
 
 
 @media (min-width: 600px) {
@@ -58,10 +44,13 @@ a:hover {
 }
 
 
-.gif {
+.img {
   pointer-events: none;
   cursor: none;
   background-color: transparent;
+  margin: 4px;
+  width: 100%;
+  height: auto;
 }
 
 
