@@ -1,5 +1,6 @@
 import './App.css';
 import img from './img.jpeg'
+import resume from './resume.pdf'
 const twitterHandle = "https://twitter.com/xentoshi"
 const github = "https://github.com/xentoshi"
 const spotify = "https://open.spotify.com/playlist/4JbUa03GgHZrDisCMraXQg?si=5a80e3dfe356456f"
@@ -23,7 +24,8 @@ function App() {
           <a href={twitterHandle} target="_blank" rel="noopener noreferrer"> twitter </a> |
           <a href ={github} target="_blank" rel="noopener noreferrer"> github </a> |
           <a href ={spotify} target="_blank" rel="noopener noreferrer"> spotify </a> |
-          <a href ={linkedin} target="_blank" rel="noopener noreferrer"> linkedin </a>
+          <a href ={linkedin} target="_blank" rel="noopener noreferrer"> linkedin </a> |
+          <a href ={resume} target="_blank" rel="noopener noreferrer"> resume </a>
         </div>
        </div>
        <div>
